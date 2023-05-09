@@ -1,0 +1,29 @@
+.about-me{
+    margin-top: 56px;
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me > h1{
+    color: rgb(171, 151, 99);
+}
+
+.about-me > p{
+    margin-top: 5%;
+}
+
+.about-education{
+    background-color: rgb(112, 111, 111);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+
+}
+
+.about-education > h1{
+    margin-bottom: 5%;
+    color: rgb(171, 151, 99);
+}
+
+.about-education > h2{
+    margin-bottom: 5%;
+}

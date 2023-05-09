@@ -1,0 +1,32 @@
+.first-section{
+    padding: 13%;
+    margin-top: 56px;
+    background-image: url(../img/fondo3.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.second-section{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    padding: 12%;
+    font-size: 200%;
+    
+}
+
+.third-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(112, 111, 111);
+    padding-left: 5%;
+
+}
+.third-section > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 10%;
+}
+
+.third-section > img{
+    width: 500px;
+}
