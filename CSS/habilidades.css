@@ -1,0 +1,23 @@
+main{
+    margin-top: 56px;
+    padding: 5%;
+}
+h1{
+    display: flex;
+    padding-bottom: 5%;
+    justify-content: center;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    row-gap: 2em;
+}
+
+.card-grid{
+    padding: 10%;
+    background-color: rgb(58, 111, 120);
+    border: 1px solid black;
+    border-radius: 5%;
+    justify-self: center;
+}
