@@ -1,5 +1,13 @@
 main{
     margin-top: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
 }
 
 .project-one{
@@ -13,7 +21,7 @@ main{
     display: flex;
     background-color: rgb(58, 111, 120);
     align-items: center;
-    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .project-thre{
@@ -21,12 +29,6 @@ main{
     flex-direction: row-reverse;
     align-items: center;
     padding-left: 5%;
-}
-
-article{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    /* padding-right: 10%; */
 }
 
 img{
