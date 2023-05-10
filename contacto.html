@@ -12,14 +12,14 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="CSS/principal.css" />
+    <link rel="stylesheet" href="CSS/contacto.css" />
   </head>
 
   <body>
     <header data-bs-theme="dark">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Acuña Melanie</a>
+          <a class="navbar-brand" href="#">Acuña Melanie</a>
           <button
             class="navbar-toggler collapsed"
             type="button"
@@ -58,31 +58,52 @@
 
     <main>
       <article>
-        <section class="first-section">
-          <h1>
-            Bienvenid@, mi nombre es <br />
-            Acuña Melanie Xiomara.
-          </h1>
-        </section>
-
-        <section class="second-section">
+        <section class="contact-section">
+          <h1>Trabaja Conmigo</h1>
           <p>
-            "Desea tanto algo que al destino no le quede mas remedio que
-            dartelo"
+            Estoy disponible para contratar como arquitecto consultor o también
+            puede hablar conmigo sobre la contratación de todo el equipo de
+            Arnold Davidson Architecture. Juntos, podemos abordar proyectos de
+            todos los tamaños. Escuchamos a nuestros clientes y sus necesidades
+            de todo corazón, al mismo tiempo que ponemos nuestro toque innovador
+            en cada proyecto. Hablemos.
           </p>
         </section>
 
-        <section class="third-section">
-          <img src="img/usuario.png" alt="" />
-          <p>
-            Lo que hago <br />
-            En mi trabajo, trato de encontrar el equilibrio adecuado entre forma
-            y función. Desde los dibujos técnicos hasta los renders fotográficos
-            y las representaciones reales de mi trabajo como diseñador, mi
-            filosofía es la simplicidad. Al mismo tiempo, mi estilo es
-            claramente mío: ordenado, con formas limpias y soluciones modernas
-            que ahorran espacio.
-          </p>
+        <section class="form-contact">
+            <span>Envia un mensaje</span>
+          <form>
+            <label>Nombre</label><br>
+            <input 
+              type="text"
+              placeholder="Ej: Sosa Brenda"
+              name=""
+              id="" class="form-input"
+              required
+            /><br />
+            <label>Correo Electronico</label><br>
+            <input
+              type="email"
+              placeholder="Ej: brenda4@gmail.com"
+              name=""
+              id="" class="form-input"
+              required
+            /><br />
+            <label>Mensaje</label><br>
+            <textarea name="" id="" cols="40" rows="5" class="form-input"></textarea>
+          </form>
+        </section>
+
+        <section class="redes">
+            <div>
+                <i class="fa-brands fa-whatsapp fa-beat-fade fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram fa-beat-fade fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-github fa-beat-fade fa-2xl" style="color: #000000;"></i>
+            </div>
         </section>
       </article>
     </main>
@@ -98,6 +119,11 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/553a1bb38c.js"
       crossorigin="anonymous"
     ></script>
   </body>
