@@ -13,7 +13,9 @@
 }
 
 .about-education{
-    background-color: rgb(58, 111, 120);
+    background-image: url(../img/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10%;
 
